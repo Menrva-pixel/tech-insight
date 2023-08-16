@@ -11,6 +11,7 @@
             <p>berita</p>
             <p>berita</p>
             <p>berita</p>
+            <p>berita</p>
         </ul>
     </div>
 </template>
