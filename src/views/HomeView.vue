@@ -9,7 +9,7 @@ import Aside from '../components/Aside.vue';
   <main>
     <HeroSection />
     <CompanyInfo />
-    <div class="flex xl:flex-row flex-col-reverse">    sm md xl 2xl 3xl
+    <div class="flex xl:flex-row flex-col-reverse">
       <NewsSection />
         <Aside />
     </div>
