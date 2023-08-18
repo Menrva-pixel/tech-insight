@@ -11,5 +11,5 @@ body {
 .banner {
     background-image: url(../assets/images/banner.jpg);
     background-size: cover;
-    min-height: 550px;
+    min-height: 800px;
 }
