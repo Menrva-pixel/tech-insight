@@ -4,23 +4,22 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-    <div class="navbar bg-base-100 flex flex-row fixed">
-        <div class="flex-1">
-            <a class="btn btn-ghost normal-case text-3xl text-white">Tech Insight</a>
+    <div class="navbar backdrop-blur-sm bg-transparent flex flex-row fixed justify-around">
+        <div class="logo w-10">
+            <img src="../assets/vue.png">
         </div>
         <div class="flex-none">
-            <ul class="menu menu-horizontal px-1">
-                <li><a>Link</a></li>
-                <li><a>Link</a></li>
-                <li><a>Link</a></li>
-                <li>
+            <ul class="menu menu-horizontal text-md text-gray-300 font-bold">
+                <li><a class="">Home</a></li>
+                <li><a class="">About</a></li>
+                <li class="">
                     <details>
                         <summary>
                             Dropdown
                         </summary>
-                        <ul class="p-2 bg-base-100">
+                        <ul class="py-8 bg-base-100 flex flex-col items-center mx-auto w-32 gap-4">
                             <RouterLink to="/about">about</RouterLink>
-                            <li><a>Link 2</a></li>
+                            <RouterLink to="/404">about</RouterLink>
                         </ul>
                     </details>
                 </li>
