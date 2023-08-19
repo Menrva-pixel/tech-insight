@@ -4,18 +4,18 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-    <div class="navbar backdrop-blur-sm bg-transparent flex flex-row fixed justify-around">
+    <div class="navbar backdrop-blur-sm bg-transparent flex flex-row fixed justify-around z-20">
         <div class="logo w-10">
             <img src="../assets/vue.png">
         </div>
         <div class="flex-none">
-            <ul class="menu menu-horizontal text-md text-gray-300 font-bold">
+            <ul class="menu menu-horizontal text-xl text-gray-300 font-bold">
                 <li><a class="">Home</a></li>
                 <li><a class="">About</a></li>
                 <li class="">
                     <details>
                         <summary>
-                            Dropdown
+                            Menu
                         </summary>
                         <ul class="py-8 bg-base-100 flex flex-col items-center mx-auto w-32 gap-4">
                             <RouterLink to="/about">about</RouterLink>
